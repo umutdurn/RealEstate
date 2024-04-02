@@ -1,0 +1,48 @@
+.searchHeader{
+  background: #3480eb;
+  padding:15px;
+  color: #fff;
+}
+
+.searchHeader span{
+  display: inline-block;
+  margin-right: 15px;
+  width:100px;
+  font-size: 20px;
+}
+
+.searchHeader input{
+  padding:10px;
+  display: inline-block;
+  width:calc(100% - 140px);
+}
+.row{
+
+  padding:50px 100px;
+
+}
+.left{
+  float: left;
+  width:30%;
+}
+.right{
+  float: right;
+  width:68%;
+}
+.estateBox{
+  width:49%;
+  float:left;
+  margin-bottom: 50px;
+}
+.estateBox span{
+  display: inline-block;
+  margin: 10px;
+}
+.clearfix{
+  clear:both;
+}
+.estateBox img{
+  width:60%;
+  object-fit: cover;
+  height: 250px;
+}
